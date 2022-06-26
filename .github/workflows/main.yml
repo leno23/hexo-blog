@@ -45,9 +45,10 @@ jobs:
         git config --global user.email "$GIT_EMAIL"
         yarn run hexo deploy
     - name: Deploy to Server
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        ftp-server: ${{ secrets.FTP_SERVER }}      # eg: ftp://ftp.xxx.com:22/mypath
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./public
+        server: ${{ secrets.FTP_SERVER }}      # eg: ftp://ftp.xxx.com:22/mypath
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./public/
+        server-dir: /htdocs/
