@@ -34,8 +34,8 @@ jobs:
     - name: Hexo Deploy           # 部署步骤，这里以 hexo deploy 为例
       env:
         SSH_PRIVATE: ${{ secrets.SSH_PRIVATE }}
-        GIT_NAME: yourname
-        GIT_EMAIL: your@email.com
+        GIT_NAME: wuyangfan
+        GIT_EMAIL: 1102042793@qq.com
       run: |
         mkdir -p ~/.ssh/
         echo "$SSH_PRIVATE" | tr -d '\r' > ~/.ssh/id_rsa
@@ -44,3 +44,10 @@ jobs:
         git config --global user.name "$GIT_NAME"
         git config --global user.email "$GIT_EMAIL"
         yarn run hexo deploy
+    - name: Deploy to Server
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+        ftp-server: ${{ secrets.FTP_SERVER }}      # eg: ftp://ftp.xxx.com:22/mypath
+        ftp-username: ${{ secrets.FTP_USERNAME }}
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./public
