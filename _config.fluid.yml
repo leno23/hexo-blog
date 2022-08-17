@@ -460,7 +460,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/default.png
+  banner_img: /img/bg/v2-e0015a8502764bd488ef7aac671cf11d_r.jpg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -532,7 +532,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img:  
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -585,7 +585,7 @@ post:
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
   updated:
-    enable: false
+    enable: true
 
     # 格式参照 ISO-8601 日期格式化
     # ISO-8601 date format
@@ -728,7 +728,7 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: disqus
+    type: valine
 
 
 #---------------------------
@@ -754,13 +754,12 @@ utterances:
 # 基于第三方的服务，国内用户直接使用容易被墙，建议配合 Disqusjs
 # Based on third-party service
 # See: https://disqus.com
-disqus:
-  shortname:
-  # 以下为 Disqusjs 支持, 国内用户如果想使用 Disqus 建议配合使用
-  # The following are Disqusjs configurations, please ignore if DisqusJS is not required
-  # See: https://github.com/SukkaW/DisqusJS
-  disqusjs: false
-  apikey:
+# disqus:
+#   shortname: fluid
+#   # 以下为 Disqusjs 支持, 国内用户如果想使用 Disqus 建议配合使用
+#   # The following are Disqusjs configurations, please ignore if DisqusJS is not required
+#   # See: https://github.com/SukkaW/DisqusJS
+#   disqusjs: true
 
 # Gitalk
 # 基于 GitHub Issues
@@ -789,10 +788,10 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/
 valine:
-  appId:
-  appKey:
+  appId: 5ijLyMygOhy5Xcsvvsr0GUOw-gzGzoHsz
+  appKey: ffi1VygAVztWPPhfqR0hLXnd
   path: window.location.pathname
-  placeholder:
+  placeholder: 发一条友善的评论
   avatar: 'retro'
   meta: ['nick', 'mail', 'link']
   requiredFields: []
@@ -886,7 +885,7 @@ giscus:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: /img/bg/v2-d6bfe1becc6a365fd4d7cd1b0aa20189_r.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -897,7 +896,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/bg/v2-acbeaa0f97b4147104b33b31b3ce08d4_r.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -926,7 +925,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/bg/v2-66c60fc1ffa1eb4bba14ad1fd8283853_r.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -943,7 +942,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/bg/v2-9b111cdbb98ff1795101f53037cc1587_r.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
@@ -1032,7 +1031,7 @@ links:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: disqus
+    type: valine
 
 
 #---------------------------
