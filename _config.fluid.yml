@@ -18,11 +18,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/fluid.png
+favicon: /img/bg/39647285.png
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: /img/fluid.png
+apple_touch_icon: /img/bg/39647285.png
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -350,7 +350,8 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "简历", link: "https://leno23.github.io/resume/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -945,13 +946,16 @@ about:
   banner_img: /img/bg/v2-9b111cdbb98ff1795101f53037cc1587_r.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
-  # avatar: /img/avatar.png
+  avatar: /img/bg/39647285.png
+  name: "Leno23"
+  intro: "可以从以下更多方式了解我"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com/leno23", tip: "GitHub" }
     - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-wechat-fill", qrcode: "/img/assets/qrcode.png" }
+    - { class: "iconfont icon-bilibili-fill",link: "https://space.bilibili.com/7195544?spm_id_from=333.1007.0.0" }
 
 
 #---------------------------
@@ -961,7 +965,7 @@ about:
 # 通过 hexo new page 命令创建的页面
 # Custom Page through `hexo new page`
 #---------------------------
-page:
+page1:
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3

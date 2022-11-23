@@ -3,6 +3,7 @@ title: Leetcode 2121. 相同元素的间隔之和
 index_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/n7a9bv.png?w=1920&fmt=webp
 banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/n7a9bv.png?w=1920&fmt=webp
 tags: [模拟]
+categories: [算法]
 ---
 
 今天我们来做一下今天的leetcode上一道中等题

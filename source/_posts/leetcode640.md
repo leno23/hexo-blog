@@ -2,6 +2,7 @@
 title: Leetcode 640. 求解方程
 index_img: https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/edfd715d12ea4993a835d1b7eb8a130c~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?
 tags: [数学,模拟]
+categories: [算法]
 comment: 'valine'
 ---
 
