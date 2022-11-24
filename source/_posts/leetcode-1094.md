@@ -5,6 +5,7 @@ tags: [贪心,差分数组,前缀和]
 categories: [算法]
 comment: 'valine'
 ---
+
 1094. 拼车
 
 车上最初有 capacity 个空座位。车 只能 向一个方向行驶（也就是说，不允许掉头或改变方向）
@@ -19,6 +20,8 @@ comment: 'valine'
 
 输入：trips = [[2,1,5],[3,3,7]], capacity = 4
 输出：false
+
+
 ```js
 // 贪心  
 // 借助优先队列，按照乘客上车的时间从小到大排序之后，每次上车之前，把之前时间下车的乘客去掉，
@@ -69,3 +72,4 @@ var carPooling = function (trips, capacity) {
     }
     return true
 };
+```
