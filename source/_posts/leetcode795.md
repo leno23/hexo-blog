@@ -1,6 +1,6 @@
 ---
 title: Leetcode 795. 区间子数组个数
-index_img: https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/edfd715d12ea4993a835d1b7eb8a130c~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?
+index_img: https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0d05d8355c7d422191469562cd90ac6c~tplv-k3u1fbpfcp-watermark.image
 tags: [单调栈,枚举]
 categories: [算法]
 comment: 'valine'
@@ -73,3 +73,4 @@ var numSubarrayBoundedMax = function (nums, left, right) {
     }
     return cnt(right) - cnt(left - 1)
 };
+```
