@@ -18,7 +18,9 @@ comment: 'valine'
 输入：nums = [-2,5,-1], lower = -2, upper = 2
 输出：3
 解释：存在三个区间：[0,0]、[2,2] 和 [0,2] ，对应的区间和分别是：-2 、-1 、2 。
+
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/39e0a862499f431485960634dca335be~tplv-k3u1fbpfcp-watermark.image)
+
 ```js
 /**
  * @param {number[]} nums
@@ -54,3 +56,4 @@ var countRangeSum = function (nums, lower, upper) {
     merge_sort(0, n)
     return res
 };
+```
