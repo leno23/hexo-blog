@@ -1,6 +1,6 @@
 ---
 title: Leetcode 1109. 航班预订统计
-index_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4805a849a1e94b008c69bc6450436de4~tplv-k3u1fbpfcp-watermark.image
+index_img: https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/13b86c8c42504b0c8610651643793ff1~tplv-k3u1fbpfcp-watermark.image
 tags: [差分数组,前缀和]
 categories: [算法]
 comment: 'valine'
