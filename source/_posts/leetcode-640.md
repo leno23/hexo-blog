@@ -1,6 +1,6 @@
 ---
 title: Leetcode 640. 求解方程
-index_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/67cacd8206484c4a83680118c1bef49b~tplv-k3u1fbpfcp-watermark.image
+index_img: https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8b333da0d4b04f56a692c3eed1357f58~tplv-k3u1fbpfcp-watermark.image
 tags: [数学,模拟]
 categories: [算法]
 comment: 'valine'

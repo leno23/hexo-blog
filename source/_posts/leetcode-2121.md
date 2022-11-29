@@ -1,7 +1,6 @@
 ---
 title: Leetcode 2121. 相同元素的间隔之和
-index_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/n7a9bv.png?w=1920&fmt=webp
-banner_img: https://rmt.dogedoge.com/fetch/fluid/storage/bg/n7a9bv.png?w=1920&fmt=webp
+index_img: https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9b320523d95e479dacb4431872a0770a~tplv-k3u1fbpfcp-watermark.image
 tags: [模拟]
 categories: [算法]
 ---
