@@ -46,6 +46,8 @@ GHGHG
 ```
 [原题链接](https://www.acwing.com/problem/content/description/4264/)
 
+
+
 ```py
 
 ''' 题意计算只含有GH字母的字符串中，长度大于等于3的只含有一个G或者H的子连续子串的个数
