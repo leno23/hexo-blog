@@ -47,6 +47,7 @@ GHGHG
 [原题链接](https://www.acwing.com/problem/content/description/4264/)
 
 ```py
+
 ''' 题意计算只含有GH字母的字符串中，长度大于等于3的只含有一个G或者H的子连续子串的个数
 
 # 思路 统计每个位置左右两边和当前字母不相同的连续字母的长度
@@ -106,5 +107,4 @@ for i in range(n):
     # 每个位置三种情况的字符数相加
     res += l[i]*r[i] + max(l[i]-1,0)+max(r[i]-1,0)
 print(res)
-    
-        
+```  
