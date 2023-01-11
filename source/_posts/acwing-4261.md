@@ -1,7 +1,7 @@
 ---
 title: acwing 4261. 孤独的照片
 index_img: https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e42bc36c123847c5b40f3cdaba9af06b~tplv-k3u1fbpfcp-watermark.image
-tags: [乘法原理]
+tags: [动态规划,乘法原理]
 categories: [AcWing,算法]
 comment: 'valine'
 ---
