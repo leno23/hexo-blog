@@ -6,7 +6,7 @@ categories: [Canvas]
 comment: 'valine'
 ---
 
-[预览地址](https://codepen.io/leno23/pen/QWxYggG)
+[预览地址](https://codepen.io/leno23/pen/MWXxMMv)
 
 ```html
 <!DOCTYPE html>
