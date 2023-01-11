@@ -7,7 +7,7 @@ comment: 'valine'
 ---
 
 
-4261. 孤独的照片
+### <center> 4261. 孤独的照片
  
 
 Farmer John 最近购入了 N 头新的奶牛，每头奶牛的品种是更赛牛（Guernsey）或荷斯坦牛（Holstein）之一。

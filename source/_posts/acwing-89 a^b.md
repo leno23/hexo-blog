@@ -6,7 +6,7 @@ categories: [算法]
 comment: 'valine'
 ---
 
-89. a^b
+### <center> 89. a^b
 
 求 aa 的 bb 次方对 pp 取模的值。
 

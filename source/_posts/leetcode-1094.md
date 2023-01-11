@@ -6,7 +6,7 @@ categories: [算法]
 comment: 'valine'
 ---
 
-1094. 拼车
+### <center> 1094. 拼车
 
 车上最初有 capacity 个空座位。车 只能 向一个方向行驶（也就是说，不允许掉头或改变方向）
 

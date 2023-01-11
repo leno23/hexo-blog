@@ -6,7 +6,7 @@ categories: [算法]
 comment: 'valine'
 ---
 
-1109. 航班预订统计
+### <center> 1109. 航班预订统计
 
 这里有 n 个航班，它们分别从 1 到 n 进行编号。
 
