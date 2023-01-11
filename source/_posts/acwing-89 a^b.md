@@ -25,13 +25,13 @@ comment: 'valine'
 
 #### 输入样例：
 
-```
+```text
 3 2 7
 ```
 
 #### 输出样例：
 
-```
+```text
 2
 ```
 
@@ -59,3 +59,4 @@ for i in range(32):
         r=r*a % p
     a=(a*a)%p
 print(r)
+```
