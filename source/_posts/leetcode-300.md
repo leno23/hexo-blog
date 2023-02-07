@@ -187,3 +187,4 @@ var lengthOfLIS = function (nums) {
     }
     return res
 };
+```
