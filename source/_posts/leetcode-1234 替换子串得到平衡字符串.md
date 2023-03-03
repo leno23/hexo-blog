@@ -1,6 +1,6 @@
 ---
 title: Leetcode 1234 替换子串得到平衡字符串
-index_img: hhttps://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e98232d9de48459794b9c91504194c52~tplv-k3u1fbpfcp-watermark.image
+index_img: https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c8246dd23b1a4becb4c8a662dc4d34b6~tplv-k3u1fbpfcp-watermark.image
 tags: [滑动窗口,二分]
 categories: [算法]
 comment: 'valine'
